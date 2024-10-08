@@ -1,2 +1,0 @@
-# Portfolio
- Kumar Modukuri Portfolio
