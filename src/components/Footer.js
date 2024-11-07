@@ -16,7 +16,7 @@ const Footer = () => {
 				<div className="left">
 					<div className="location">
 						<FaHome size={22} style={{ color: "#fff", marginRight: "2rem" }} />
-						<p>Sapthagiri Colony-2nd Line,Narapalli,Hyderabad,Telangana</p>
+						<p>Gulmohar Park Colony,Netaji Nagar,Hyderabad,Telangana</p>
 					</div>
 					<div className="phone">
 						<FaPhone size={18} style={{ color: "#fff", marginRight: "2rem" }} />
@@ -60,7 +60,9 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-			<div className="copyright">Kumar Modukuri &copy; 2024</div>
+			<div className="copyright">
+				&copy; {new Date().getFullYear()} Kumar Modukuri. All rights reserved.
+			</div>
 		</div>
 	);
 };
