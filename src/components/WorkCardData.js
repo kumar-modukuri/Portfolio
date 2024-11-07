@@ -2,6 +2,7 @@ import pro1 from "../assets/project1.png";
 import pro2 from "../assets/project2.jpg";
 import pro3 from "../assets/project3.jpg";
 import pro4 from "../assets/project4.jpg";
+import pro5 from "../assets/project5.jpg";
 
 const ProjectCardData = [
 	{
@@ -31,6 +32,13 @@ const ProjectCardData = [
 		text: "A React.js Project",
 		view: "https://github.com/kumar-modukuri/Review-Site",
 		source: "https://github.com/kumar-modukuri/Review-Site",
+	},
+	{
+		imgSrc: pro5,
+		title: "yturltomp3converter",
+		text: "Yt Url To Mp3 Converter",
+		view: "https://github.com/kumar-modukuri/yturltomp3converter",
+		source: "https://github.com/kumar-modukuri/yturltomp3converter",
 	},
 ];
 
