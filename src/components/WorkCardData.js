@@ -3,6 +3,7 @@ import pro2 from "../assets/project2.jpg";
 import pro3 from "../assets/project3.jpg";
 import pro4 from "../assets/project4.jpg";
 import pro5 from "../assets/project5.jpg";
+import pro6 from "../assets/project6.jpg";
 
 const ProjectCardData = [
 	{
@@ -39,6 +40,13 @@ const ProjectCardData = [
 		text: "Yt Url To Mp3 Converter",
 		view: "https://github.com/kumar-modukuri/yturltomp3converter",
 		source: "https://github.com/kumar-modukuri/yturltomp3converter",
+	},
+	{
+		imgSrc: pro6,
+		title: "Task-Manager",
+		text: "React.js Application with Local storage",
+		view: "https://kumar-task-manager.onrender.com",
+		source: "https://github.com/kumar-modukuri/Task-Manager",
 	},
 ];
 
