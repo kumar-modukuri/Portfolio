@@ -4,6 +4,7 @@ import pro3 from "../assets/project3.jpg";
 import pro4 from "../assets/project4.jpg";
 import pro5 from "../assets/project5.jpg";
 import pro6 from "../assets/project6.jpg";
+import pro7 from "../assets/project7.jpg";
 
 const ProjectCardData = [
 	{
@@ -47,6 +48,13 @@ const ProjectCardData = [
 		text: "React.js Application with Local storage",
 		view: "https://kumar-task-manager.onrender.com",
 		source: "https://github.com/kumar-modukuri/Task-Manager",
+	},
+	{
+		imgSrc: pro7,
+		title: "Book-Finder",
+		text: "React.js with openlibrary api",
+		view: "https://book-finder-test.onrender.com",
+		source: "https://github.com/kumar-modukuri/book-finder",
 	},
 ];
 
