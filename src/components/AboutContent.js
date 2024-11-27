@@ -9,8 +9,13 @@ const AboutContent = () => {
 			<div className="left">
 				<h1>Who Am I ?</h1>
 				<p>
-					I'M a Full Stack Developer. I Strive to create responsive websites for
-					both mobile and desktop
+					I'm Kumar Modukuri, a Full Stack Developer skilled in creating
+					scalable applications that drive business success. I specialize in
+					both frontend and backend technologies, including React.js, Redux,
+					Spring Boot, and Node.js, and have experience with SQL and NoSQL
+					databases. I design robust architectures using monolithic and
+					microservices approaches, leveraging Docker for containerization and
+					cloud platforms for seamless deployment.
 				</p>
 				<Link to="/contact">
 					<button className="btn">Contact</button>
