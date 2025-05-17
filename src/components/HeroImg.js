@@ -1,13 +1,13 @@
 import { Link } from "react-router-dom";
 import IntroImg from "../assets/intro-bg.jpg";
-import Resume from "../assets/Kumar_Resume.pdf";
+import Resume from "../assets/Kumar_Modukuri_Resume.pdf";
 import "../component-styles/HeroImgStyles.css";
 
 const HeroImg = () => {
 	const downloadResume = () => {
 		const link = document.createElement("a");
 		link.href = Resume;
-		link.setAttribute("download", "Kumar_Resume.pdf");
+		link.setAttribute("download", "Kumar_Modukuri_Resume.pdf");
 		document.body.appendChild(link);
 		link.click();
 		document.body.removeChild(link);
